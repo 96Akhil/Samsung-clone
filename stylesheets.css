@@ -1,0 +1,282 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    font-size: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+
+}
+
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1400;
+    height: 4.4rem;
+    background-color: rgba(49, 46, 46, 0.8);
+    backdrop-filter: blur(1rem);
+}
+
+.logo img{
+    margin-left: -6rem;
+    height: 4rem;
+    width: 10rem;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -1rem;
+}
+
+.nav-list-mobile {
+    display: none;
+}
+
+.nav-link {
+    font-size: 1.4rem;
+    color: white;
+    padding-left: 1rem;
+    margin-top: -4rem;
+    transition: opacity 0.5s;
+}
+
+.gnb__logo-icon svg {
+    width: 104px;
+    height: 16px;
+}
+
+.nav-link-samsung {
+    width: 1.6rem;
+    background: url("https://www.logotaglines.com/wp-content/uploads/2017/08/samsung-Logo-646x480.jpg") center no-repeat;
+    height: 4.4 rem;
+}
+
+.nav-link:hover {
+    opacity: 0.7;
+}
+
+.nav-list-larger {
+    padding-top: 1rem;
+}
+
+
+
+.Galaxy-S22-Ultra {
+    background: url("//images.samsung.com/in/smartphones/galaxy-s22-ultra/images/galaxy-s22-ultra_highlights_kv_img.jpg") center no-repeat;
+    margin-top: 4.4rem;
+
+}
+
+.samsung {
+    height: 69.2rem;
+    background-size: auto auto;
+    background-position: center;
+    background-size: inherit;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    border-top: 0.1rem solid whitesmoke;
+    border-bottom: 0.1rem solid whitesmoke;
+}
+
+.title {
+    color: black;
+    text-align: center;
+    padding-top: 45rem;
+
+}
+
+.title-heading {
+    font-size: 5.6rem;
+    line-height: 1.07;
+    letter-spacing: -0.005rem;
+}
+
+.title-sub-heading {
+    font-size: 2.65rem;
+    margin-top: 0.6rem;
+    letter-spacing: 0.008rem;
+    font-weight: 400;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 1.8rem;
+}
+
+.cta-link {
+    color: #185f99;
+    font-size: 2.1rem;
+    display: inline-block;
+}
+
+.cta-link:nth-child(2) {
+    margin-left: 2.6rem;
+}
+
+.cta-link:hover {
+    border-bottom: 2px solid #185f99;
+}
+
+.Galaxy-Z-Flip {
+    background: url("//images.samsung.com/in/smartphones/galaxy-z-flip4/buy/Flip4_Bespoke_Carousel_GroupKV_NewTop5_IN_BR_PC.jpg?imwidth=1366") center no-repeat;
+}
+
+.title-Flip {
+    color: black;
+    padding-top: 25rem;
+}
+
+.cta-Flip {
+    padding-top: 2rem;
+}
+
+.title-heading {
+    font-size: 5.6rem;
+    line-height: 1.07;
+    letter-spacing: -0.005rem;
+}
+
+.title-sub-heading {
+    font-size: 2.65rem;
+    margin-top: 0.6rem;
+    letter-spacing: 0.008rem;
+    font-weight: 400;
+}
+
+.samsung {
+    height: 69.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    border-top: 0.1rem solid whitesmoke;
+    border-bottom: 0.1rem solid whitesmoke;
+}
+
+.Galaxy-Z-Fold {
+    background: url("//images.samsung.com/in/smartphones/galaxy-z-fold4/images/galaxy-z-fold4_highlights_kv.jpg") center no-repeat;
+}
+
+.title-Fold {
+    color: black;
+    padding-top: 15rem;
+}
+
+.cta-Fold {
+    text-align: justify;
+    margin-top: 1.8rem;
+}
+
+.title-heading {
+    font-size: 5.6rem;
+    line-height: 1.07;
+    letter-spacing: -0.005rem;
+}
+
+.title-sub-heading {
+    font-size: 2.65rem;
+    margin-top: 0.6rem;
+    letter-spacing: 0.008rem;
+    font-weight: 400;
+}
+
+.samsung {
+    height: 69.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    border-top: 0.6rem solid whitesmoke;
+    border-bottom: 0.6rem solid whitesmoke;
+}
+
+.Galaxy-Watch {
+    background: url("//images.samsung.com/in/galaxy-watch5-pro/feature/galaxy-watch5-pro-kv.jpg?imwidth=1080") center no-repeat;
+}
+
+.title-dark {
+    color: black;
+}
+
+.title-heading {
+    font-size: 5.6rem;
+    line-height: 1.07;
+    letter-spacing: -0.005rem;
+}
+
+.title-sub-heading {
+    font-size: 2.65rem;
+    margin-top: 0.6rem;
+    letter-spacing: 0.008rem;
+    font-weight: 400;
+}
+
+.samsung {
+    height: 69.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    border-top: 0.6rem solid white;
+    border-bottom: 0.6rem solid white;
+}
+
+@media screen and (max-width:1068px) {
+
+    .Galaxy-S22-Ultra {
+        background: url("https://cdn-icons-png.flaticon.com/512/5969/5969254.png");
+
+    }
+
+    .Galaxy-Z-Flip {
+        background: url("https://cdn-icons-png.flaticon.com/512/5969/5969254.png");
+    }
+
+    .Galaxy-Z-Fold {
+        background: url("https://cdn-icons-png.flaticon.com/512/5969/5969254.png");
+    }
+
+    .Galaxy-Watch {
+        background: url("https://cdn-icons-png.flaticon.com/512/5969/5969254.png");
+    }
+
+    .samsung {
+        height: 65rem;
+        background-size: auto 69.8rem;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+
+    .title-heading {
+        font-size: 4.4rem;
+    }
+
+    .title-sub-heading {
+        font-size: 2.4rem;
+    }
+
+    .cta-link:nth-child(2) {
+        margin-left: 2rem;
+    }
+}
